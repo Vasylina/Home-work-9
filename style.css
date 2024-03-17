@@ -141,7 +141,7 @@ a {
   color: var(--color-secondary);
   text-align: center;
   line-height: var(--line-height-lg);
-  margin-bottom: 50px;
+  /* margin-bottom: 50px; */
   max-width: var(--container-sm);
   margin-inline: auto;
 }
@@ -188,7 +188,7 @@ a {
 }
 
 .video {
-  background-color: var(--color-light);
+  background-color: var(--color-white);
   padding-bottom: 100px;
 }
 
