@@ -69,7 +69,7 @@ a {
 }
 
 .navbar {
-  margin-bottom: 134px;
+  margin-bottom: 148px;
 }
 
 .navbar-list {
@@ -103,11 +103,12 @@ a {
   font-size: 3rem;
   font-weight: 500;
   margin: 0;
+  margin-bottom: 10px;
 }
 
 .content__description {
   color: var(--color-secondary);
-  margin-bottom: 21px;
+  margin-bottom: 24px;
   line-height: var(--line-height-lg);
 }
 
@@ -141,6 +142,8 @@ a {
   text-align: center;
   line-height: var(--line-height-lg);
   margin-bottom: 50px;
+  max-width: var(--container-sm);
+  margin-inline: auto;
 }
 
 .expiriance {
