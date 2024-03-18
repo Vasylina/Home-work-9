@@ -48,7 +48,7 @@ a {
 
   white-space: nowrap;
   clip-path: inset(100%);
-  clip: rect(0 0 0 0);
+  clip: rect(0,0,0,0);
   overflow: hidden;
 }
 
@@ -86,8 +86,12 @@ a {
   letter-spacing: var(--letter-spacing);
 }
 
-.navbar-link:hover {
+.active {
   color: var(--color-primary);
+}
+
+.navbar-link :hover {
+  /* color: var(--color-primary); */
   scale: 1.1;
 }
 
